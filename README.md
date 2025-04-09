@@ -12,7 +12,7 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 - [Part 2: Configuring Microsoft Fabric Backend]()
 - [Part 3: Client Experience - CLI]()
 - [Part 4: Client Experience - Gradio UI]()
-- [Part 4: Demo video on YouTube]()
+- [Part 5: Demo video on YouTube]()
 
 ## Part 1: Configuring Client Environment
 
@@ -22,5 +22,5 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 
 ## Part 4: Client Experience - Gradio UI
 
-## Part 4: Demo video on YouTube
+## Part 5: Demo video on YouTube
 
