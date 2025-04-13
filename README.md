@@ -29,7 +29,7 @@ pip install -r requirements.txt
 | `AOAI_API_VERSION`      | API version of the Azure OpenAI endpoint         |
 | `AOAI_DEPLOYMENT`       | Deployment name of the Azure OpenAI model        |
 
-3. Update the value of `AZURE_FABRIC_GRAPHQL_ENDPOINT` variable in the provided *.env* file with GraphQL endpoint's from Part 1 above. It will be utilised by MCP Server script.
+3. Update the value of `AZURE_FABRIC_GRAPHQL_ENDPOINT` variable in the provided *.env* file with GraphQL endpoint's from Part 1 above. It will be utilised by MCP Server script to establish connectivity with Microsoft Fabric.
 
 ## Part 3: User Experience - Gradio UI
 
