@@ -14,7 +14,9 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 - [Part 4: Demo video on YouTube]()
 
 ## Part 1: Configuring Microsoft Fabric Backend
-
+1. In Microsoft Fabric create a new data warehouse pre-populated by sample data by clicking *New item -> Sample warehouse*:
+![Step1_SampleWarehouse](images/Step1_SampleWarehouse.png)
+2. 
 
 ## Part 2: Configuring Local Client Environment
 1. Install the required Python packages, listed in the provided *requirements.txt*:
