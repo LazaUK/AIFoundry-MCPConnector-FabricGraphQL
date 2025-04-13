@@ -20,7 +20,8 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 ![Step2_GraphQlCreate](images/Step2_GraphQLCreate.png)
 3. In the data configuration of GraphQL API, choose *Trip (dbo.Trip)* table:
 ![Step3_GraphQLData.png](images/Step3_GraphQLData.png)
-4. 
+4. Copy endpoint URL of your GraphQL API:
+![Step4_GraphQLDataURL.png](images/Step4_GraphQLDataURL.png)
 
 ## Part 2: Configuring Local Client Environment
 1. Install the required Python packages, listed in the provided *requirements.txt*:
@@ -35,7 +36,7 @@ pip install -r requirements.txt
 | `AOAI_API_VERSION`      | API version of the Azure OpenAI endpoint         |
 | `AOAI_DEPLOYMENT`       | Deployment name of the Azure OpenAI model        |
 
-3. Update the value of `AZURE_FABRIC_GRAPHQL_ENDPOINT` variable in the provided *.env* file with GraphQL endpoint's from Part 1 above. It will be utilised by MCP Server script to establish connectivity with Microsoft Fabric.
+3. Update the value of `AZURE_FABRIC_GRAPHQL_ENDPOINT` variable in the provided *.env* file with GraphQL's endpoint URL from Step 1.4 above. It will be utilised by MCP Server script to establish connectivity with Microsoft Fabric.
 
 ## Part 3: User Experience - Gradio UI
 
