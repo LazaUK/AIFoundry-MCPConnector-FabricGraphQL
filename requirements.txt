@@ -1,0 +1,4 @@
+azure-identity
+openai-agents
+openai
+mcp
