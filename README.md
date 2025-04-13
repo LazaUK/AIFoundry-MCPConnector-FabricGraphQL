@@ -18,18 +18,18 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 
 ## Part 2: Configuring Local Client Environment
 1. Install the required Python packages, listed in provided *requirements.txt*:
-```powershell
-pip install requirements.txt
+```PowerShell
+pip install -r requirements.txt
 ```
 2. Configure environmnet variables for MCP client:
 
 | Variable                | Description                                      |
 | ----------------------- | ------------------------------------------------ |
-| `AOAI_API_BASE`         | Azure subscription ID.                           |
-| `AOAI_API_VERSION`      | Azure ML resource group name.                    |
-| `AOAI_DEPLOYMENT`       | Azure ML workspace name.                         |
+| `AOAI_API_BASE`         | Base URL of the Azure OpenAI endpoint            |
+| `AOAI_API_VERSION`      | API version of the Azure OpenAI endpoint         |
+| `AOAI_DEPLOYMENT`       | Deployment name of the Azure OpenAI model        |
 
-3. Update the value of AZURE_FABRIC_GRAPHQL_ENDPOINT variable in .env file with GraphQL endpoint's .
+3. Update the value of AZURE_FABRIC_GRAPHQL_ENDPOINT variable in .env file with GraphQL endpoint's from Part 1 above. It will be utilised by MCP Server script.
 
 ## Part 3: User Experience - Gradio UI
 
