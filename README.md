@@ -5,7 +5,7 @@ This repo demonstrates the integration of an Azure OpenAI-powered AI agent with 
 MCP enables dynamic discovery of tools, data resources and prompt templates (with more coming), unifying their integration with AI agents. GraphQL provides an abstraction layer for universal data connection. Below, you will find detailed steps on how to combine MCP and GraphQL to enable bidirectional access to enterprise data for your AI agent.
 
 > [!NOTE]
-> The 
+> In the MCP server's script, some query parameter values are hard-coded for the sake of this example. In a real-world scenario, these values would be dynamically generated or retrieved.
 
 ## Table of contents:
 - [Part 1: Configuring Microsoft Fabric Backend]()
