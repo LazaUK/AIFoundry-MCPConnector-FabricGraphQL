@@ -16,7 +16,11 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 ## Part 1: Configuring Microsoft Fabric Backend
 1. In Microsoft Fabric create a new data warehouse pre-populated by sample data by clicking *New item -> Sample warehouse*:
 ![Step1_SampleWarehouse](images/Step1_SampleWarehouse.png)
-2. 
+2. Next, create a GraphQL API endpoint by clicking *New item -> API for GraphQL*:
+![Step2_GraphQlCreate](images/Step2_GraphQLCreate.png)
+3. In the data configuration of GraphQL API, choose *Trip (dbo.Trip)* table:
+![Step3_GraphQLData.png](images/Step3_GraphQLData.png)
+4. 
 
 ## Part 2: Configuring Local Client Environment
 1. Install the required Python packages, listed in the provided *requirements.txt*:
