@@ -52,4 +52,4 @@ python MCP_Client_Gradio.py
 3. You can now pull and push data to your data warehouse using GraphQL's **queries** and **mutations** enabled by this MCP connector.
 
 ## Part 4: Demo video on YouTube
-A practical demo of the provided MCP connector can be found on this [YouTube video]().
+A practical demo of the provided MCP connector can be found on this [YouTube video](https://youtu.be/R_tPzgEEHMw).
