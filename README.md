@@ -49,7 +49,8 @@ python MCP_Client_Gradio.py
 ```
 2. Click the *Initialise System* button to start the MCP server and connect your AI agent to the Microsoft Fabric's GraphQL API endpoint:
 ![Step5_GradioLaunch.png](images/Step5_GradioLaunch.png)
-3. You can now pull and push data to your data warehouse using GraphQL's **queries** and **mutations** enabled by this MCP connector.
+3. You can now pull and push data to your data warehouse using GraphQL's **queries** and **mutations** enabled by this MCP connector:
+![Step5_GradioUse.png](images/Step5_GradioUse.png)
 
 ## Part 4: Demo video on YouTube
 A practical demo of the provided MCP connector can be found on this [YouTube video](https://youtu.be/R_tPzgEEHMw).
