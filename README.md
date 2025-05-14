@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lazauk-aifoundry-mcpconnector-fabricgraphql-badge.png)](https://mseep.ai/app/lazauk-aifoundry-mcpconnector-fabricgraphql)
+
 # MCP Connector: Integrating AI agent with Data Warehouse in Microsoft Fabric
 
 This repo demonstrates the integration of an Azure OpenAI-powered AI agent with a Microsoft Fabric data warehouse using the Model Context Protocol (MCP), [open integration standard for AI agents by Anthropic](https://www.anthropic.com/news/model-context-protocol).
