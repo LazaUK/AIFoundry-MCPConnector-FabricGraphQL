@@ -28,7 +28,7 @@ MCP enables dynamic discovery of tools, data resources and prompt templates (wit
 ```PowerShell
 pip install -r requirements.txt
 ```
-2. Configure environmnet variables for the MCP client:
+2. Configure environment variables for the MCP client:
 
 | Variable                | Description                                      |
 | ----------------------- | ------------------------------------------------ |
